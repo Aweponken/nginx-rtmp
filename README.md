@@ -8,9 +8,9 @@ There are two ways of downloading the images.
 ```docker pull aweponken/nginx-rtmp```
 
 **Manual build:** if you want to build it your self you can clone this repo and then build the docker by running the following commands:
-* ```git clone https://github.com/Aweponken/docker-nginx-rtmp.git```
-* ```cd docker-nginx-rtmp ```
-* ```docker build -t docker-nginx-rtmp . ```
+* ```git clone https://github.com/Aweponken/nginx-rtmp.git```
+* ```cd nginx-rtmp ```
+* ```docker build -t aweponken/nginx-rtmp . ```
 
 ### Configurations
 This image exposes port 1935 for RTMP Steams and has 1 channel open: "live".
