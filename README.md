@@ -2,7 +2,8 @@
 ## Prereqs
 In order to run the image, [Docker](https://www.docker.com/) is reqiured.
 ## Setup
-There are two ways of downloading the images.
+There are two ways of downloading the images.   
+
 **Recommended build:** the easiest way is to pull it directly from docker hub by running:   
 ```docker pull aweponken/nginx-rtmp```
 
