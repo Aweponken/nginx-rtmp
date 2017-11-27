@@ -20,8 +20,9 @@ The configuration file can be found in ```/usr/local/nginx/conf/nginx.conf```
 To run the container and bind port 1935 and 80 to the host machine; run the following:   
 ```docker run -p 1935:1935 -p 80:80 aweponken/nginx-rtmp```
 
+Check that nginx is running by hitting http://localhost in a browser.
 ### OBS Configuration
-Under broadcast settigns, set the follwing parameters:
+Under broadcast settings, set the follwing parameters:
 ```
 Streaming Service: Custom
 Server: rtmp://<your server ip>/live
