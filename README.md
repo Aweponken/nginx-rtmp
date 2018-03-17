@@ -17,10 +17,10 @@ This image exposes port 1935 for RTMP streams and has 1 channel open: "live".
 The configuration file can be found in ```/usr/local/nginx/conf/nginx.conf```
 
 ### Running
-To run the container and bind port 1935 and 80 to the host machine; run the following:   
-```docker run -p 1935:1935 -p 80:80 aweponken/nginx-rtmp```
+To run the container and bind port 1935 and 5001 to the host machine; run the following:   
+```docker run -p 1935:1935 -p 5001:80 -d aweponken/nginx-rtmp```
 
-Check that nginx is running by hitting http://localhost in a browser.
+Check that nginx is running by hitting http://localhost:5001 in a browser.
 ### OBS Configuration
 Under broadcast settings, set the follwing parameters:
 ```
